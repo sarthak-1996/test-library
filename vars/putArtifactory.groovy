@@ -1,4 +1,4 @@
-def call(string jfrogip){
+def call(jfrogip){
   withCredentials([(
         credentialsId: "jfrog",
         usernameVariable: "USER",
